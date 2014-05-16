@@ -1,0 +1,18 @@
+/**
+ * Module dependencies
+ */
+
+@require './variables'
+
+/**
+ * Replace arguments in current-property
+ * with `spacing--` variables, if matching.
+ * @mixin
+ */
+
+spacing--mixin()
+  prop = current-property[0]
+  args = current-property[1]
+  for idx in 0..(length(args))
+    args[idx] = (lookup(join('--', 'spacing' args[idx]))) or args[idx]
+  {prop} args
