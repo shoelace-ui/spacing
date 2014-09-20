@@ -1,10 +1,12 @@
 {
-  "name" : "shoelace-ui-spacing",
-  "version" : "0.0.1",
-  "description" : "Spacing variables",
-  "repository" : "https://github.com/shoelace-ui/spacing.git",
-  "keywords" : ["stylus", "shoelace", "space", "spacing"],
-  "author" : "Michael Andrew Vanasse <mail@mndvns.com>",
-  "license" : "MIT",
-  "dependencies": {}
+  "name": "shoelace-ui-spacing",
+  "version": "0.1.0",
+  "description": "Spacing variable and mixin",
+  "repository": "https://github.com/shoelace-ui/spacing.git",
+  "keywords": ["stylus", "shoelace", "space", "spacing"],
+  "author": "Michael Andrew Vanasse <mail@mndvns.com>",
+  "license": "MIT",
+  "dependencies": {
+    "shoelace-ui-clockwise": "^0.1.0"
+  }
 }

@@ -1,13 +1,17 @@
-# spacing
+#  spacing
 
-Spacing variables and mixin.
+Spacing variables
 
-## Installation
+## Install
 
 ```sh
-$ npm install git://github.com/shoelace-ui/spacing.git
+$ npm install shoelace-ui-spacing
 ```
+## Usage
 
+```styl
+@require 'shoelace-ui-spacing'
+```
 ## License
 
 MIT
